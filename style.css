@@ -13,3 +13,13 @@ body {
     break-inside:avoid;
     break-before: column;
 }
+.columns .quote{
+    font-size: 5vw;
+    color: blueviolet;
+    text-align: center;
+    column-span: all;
+    margin: 2rem;
+}
+.nowrap{
+    white-space: nowrap;
+}
