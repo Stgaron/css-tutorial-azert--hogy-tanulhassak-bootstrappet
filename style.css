@@ -1,4 +1,8 @@
-h1 {
-    color: aqua;
-    font-size: 60px;
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+.columns{
+    column-count: 4;
+    column-width: 250px;
 }
