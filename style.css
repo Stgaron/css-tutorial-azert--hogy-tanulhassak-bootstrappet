@@ -5,4 +5,11 @@ body {
 .columns{
     column-count: 4;
     column-width: 250px;
+    column-rule: 5px solid black;
+    column-gap: 3rem;
+}
+.columns p {
+    background-color: aqua;
+    break-inside:avoid;
+    break-before: column;
 }
